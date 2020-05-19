@@ -1,0 +1,141 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, white, grey);
+}
+
+.container{
+    position: relative;
+    height: 500px;
+    width: 640px;
+    background-color: aquamarine;
+    box-shadow: 0px 5px blue;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 5px;
+}
+
+.display{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 90px;
+    border: 2px solid purple;
+    position: relative;
+    overflow: hidden;
+}
+
+.score{
+    position: absolute;
+    left: 550px;
+    height: 20px;
+    margin-top: 10px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0px 5px purple;
+    border-radius: 5px;
+}
+.highscore{
+    position: absolute;
+    left: 400px;
+    height: 20px;
+    margin-top: 10px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0px 5px purple;
+    border-radius: 5px;
+    display: none;
+}
+
+.trial{
+    position: absolute;
+    display: none;
+    left: 20px;
+    height: 20px;
+    margin-top: 10px;
+    width: 90px;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0px 5px purple;
+    border-radius: 5px;
+}
+
+.dialog{
+    background-color: azure;
+    box-shadow: 0px 5px green;
+    line-height: 1;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    width: 300px;
+    margin: 0px auto;
+    height: 40px;
+}
+
+.dialog p{
+    margin-top: 15px;
+}
+
+.button{
+    position: relative;
+    margin-top: 10px;
+    bottom: 0px;
+}
+.button button{
+    position: absolute;
+    width: auto;
+    height: 40px;
+    left: 280px;
+    padding: 5px;
+    box-shadow: 0px 5px purple;
+    border-radius: 5px;
+    border: 1px solid purple;
+    transition: all 0.2s ease;
+}
+.button button:hover{
+    background-color: mediumpurple;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.button button:active{
+    top: 4px;
+    box-shadow: 0px 0px;
+}
+.heart{
+    height: 20px;
+    width: 20px;
+    margin: 0px 5px;
+}
+.fruit{
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+#gameover{
+    height: 200px;
+    width: 450px;
+    background: linear-gradient(orange, antiquewhite);
+    position: absolute;
+    z-index: 2;
+    left: 95px;
+    top: 100px;
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    display: none;
+}
